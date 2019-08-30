@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, white, black);
+    font-size: 1.15em;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height : 150%}
+
+header{
+    text-align: center;
+    font-variant: small-caps;
+    color: #27377c;}
+
+nav{
+    text-align: right;
+    padding-right: 13%}
+
+nav ul{
+    font-variant: small-caps;
+    text-align: right;}
+
+nav ul li{
+    font-weight: bold;
+    text-align: right;
+    list-style-type: none;}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: right;
+    color : #27377c;
+    text-decoration: none;
+    list-style-type: none;}
+
+nav ul li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    background: #27377c;
+    color:white;
+    text-decoration: none;}
+
+img{
+  max-width: 20%;
+  height: auto;}
+
+section.information{
+    background-color:white;
+    width: 90%;
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 35px 5% 35px 5%;}
+
+section.information h1{
+    color: #27377c;
+    font-style: italic;}
+
+h2{
+    color: #27377c}
+
+section.information aside{
+    background: #b3b3b3;
+    color: white;
+    text-align:center}
+
+footer{
+    text-align: center;
+    color: black;
+    background: #b3b3b3;
+    font-size: .85em;
+    padding: 35px 20% 35px 20%;
+    text-decoration: none;}
+
+footer ul {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;}
+
+.contactInfo a{
+    text-decoration: none;}
+
+a:visited{
+    color:blue;}
